@@ -1,0 +1,21 @@
+[project]
+name = "webthingy"
+version = "0.1.0"
+description = "A stab at creating a personal portfolio/blog-type site."
+authors = [
+    {name = "Eric R. Fulmer",email = "2952996+EFulmer@users.noreply.github.com"}
+]
+license = {text = "AGPL 3.0"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "redis (>=6.0.0,<7.0.0)",
+    "pytest (>=8.3.5,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
